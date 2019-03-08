@@ -379,7 +379,7 @@ Transform:
   m_LocalScale: {x: 20, y: 5, z: 20}
   m_Children: []
   m_Father: {fileID: 1491978352}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.23700002}
 --- !u!1 &170076733
 GameObject:
@@ -1023,6 +1023,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: f38b89475db35984794eb2a63f2c5d90, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c0db424e2d342a745b1eace56daa5ee5, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f38b89475db35984794eb2a63f2c5d90, type: 3}
 --- !u!1001 &496469995
@@ -1100,6 +1104,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.98
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: e4aa7e048aec5ea4b93b17c60f34dda6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e0d5325d7f3277c4a89457cf3b7c0b70, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4aa7e048aec5ea4b93b17c60f34dda6, type: 3}
 --- !u!1 &524497478
@@ -2329,8 +2337,8 @@ Transform:
   - {fileID: 1695587277}
   - {fileID: 1307413192}
   - {fileID: 1017826081}
-  - {fileID: 1211961288}
   - {fileID: 122326070}
+  - {fileID: 1211961288}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2557,6 +2565,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 198cf0d41de623c408b0cd36a51a0e74, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e0d5325d7f3277c4a89457cf3b7c0b70, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 198cf0d41de623c408b0cd36a51a0e74, type: 3}
 --- !u!1001 &1777901134
