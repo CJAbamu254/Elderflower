@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b60e916fcc54f3547a6aaa55f778ce0b
+guid: b534df1f39d159543b48532c900ccca7
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -7,7 +7,7 @@ ModelImporter:
     100002: //RootNode
     400000: Forest-Tree2
     400002: //RootNode
-    2100000: Forest-Tree2Mat
+    2100000: palette
     2300000: Forest-Tree2
     3300000: Forest-Tree2
     4300000: Forest-Tree2
