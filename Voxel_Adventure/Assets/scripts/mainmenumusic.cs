@@ -48,6 +48,12 @@ public class mainmenumusic : MonoBehaviour
                 camaudio.Play();
 
                 BEBut.SetActive(true);
+
+                FRBut.SetActive(false);
+                MABut.SetActive(false);
+                ZOBut.SetActive(false);
+                MUBut.SetActive(false);
+                TRBut.SetActive(false);
             }
 
             if (Forest.Raycast(ray, out hit, 100.0f))
@@ -57,6 +63,12 @@ public class mainmenumusic : MonoBehaviour
                 camaudio.Play();
 
                 FRBut.SetActive(true);
+
+                BEBut.SetActive(false);
+                MABut.SetActive(false);
+                ZOBut.SetActive(false);
+                MUBut.SetActive(false);
+                TRBut.SetActive(false);
             }
 
             if (Mall.Raycast(ray, out hit, 100.0f))
@@ -66,6 +78,12 @@ public class mainmenumusic : MonoBehaviour
                 camaudio.Play();
 
                 MABut.SetActive(true);
+
+                BEBut.SetActive(false);
+                FRBut.SetActive(false);
+                ZOBut.SetActive(false);
+                MUBut.SetActive(false);
+                TRBut.SetActive(false);
             }
 
             if (Zoo.Raycast(ray, out hit, 100.0f))
@@ -74,7 +92,13 @@ public class mainmenumusic : MonoBehaviour
                 camaudio.clip = main;
                 camaudio.Play();
 
-               ZOBut.SetActive(true);
+                ZOBut.SetActive(true);
+
+                BEBut.SetActive(false);
+                FRBut.SetActive(false);
+                MABut.SetActive(false);
+                MUBut.SetActive(false);
+                TRBut.SetActive(false);
             }
 
             if (Museum.Raycast(ray, out hit, 100.0f))
@@ -84,6 +108,12 @@ public class mainmenumusic : MonoBehaviour
                 camaudio.Play();
 
                 MUBut.SetActive(true);
+
+                BEBut.SetActive(false);
+                FRBut.SetActive(false);
+                MABut.SetActive(false);
+                ZOBut.SetActive(false);
+                TRBut.SetActive(false);
             }
 
             if (Train.Raycast(ray, out hit, 100.0f))
@@ -93,19 +123,13 @@ public class mainmenumusic : MonoBehaviour
                 camaudio.Play();
 
                 TRBut.SetActive(true);
-            }
 
-            else
-            {
                 BEBut.SetActive(false);
                 FRBut.SetActive(false);
                 MABut.SetActive(false);
                 ZOBut.SetActive(false);
                 MUBut.SetActive(false);
-                TRBut.SetActive(false);
-
             }
         }
-
     }
 }
