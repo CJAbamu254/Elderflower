@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 7f757642ed27909449ba211d3f9730fc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - DestroyPS: {fileID: 2646472539867400640, guid: 9b777261655423d4f86b97ac983222dc,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
