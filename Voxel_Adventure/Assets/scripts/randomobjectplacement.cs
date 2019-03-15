@@ -5,8 +5,8 @@ using UnityEngine;
 public class randomobjectplacement : MonoBehaviour
 {
 
-    public List<GameObject> objectlist;
-    public List<GameObject> locationslist;
+    public List<GameObject> objectlist = new List<GameObject>();
+    public List<GameObject> locationslist = new List<GameObject>();
 
     private int objectIndex;
     private int spawnIndex;
@@ -14,6 +14,9 @@ public class randomobjectplacement : MonoBehaviour
 
     List<int> randomObjects = new List<int>();
     List<int> randomPositions = new List<int>();
+
+    public GameObject level;
+
 
     void Start()
     {
@@ -36,10 +39,11 @@ public class randomobjectplacement : MonoBehaviour
             while (randomPositions.Contains(randomPosition));
             randomPositions.Add(randomPosition);
 
-            Instantiate(objectlist[randomObject], locationslist[randomPosition].transform.position, locationslist[randomPosition].transform.rotation);
+            GameObject objectToBeSpawned = null;
+            objectToBeSpawned = Instantiate(objectlist[randomObject], locationslist[randomPosition].transform.position, locationslist[randomPosition].transform.rotation);
+            objectToBeSpawned.transform.parent = level.transform;
         }
     }
-    
 }
 
 

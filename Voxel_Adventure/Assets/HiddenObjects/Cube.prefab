@@ -104,7 +104,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f757642ed27909449ba211d3f9730fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectlist: []
-  locationslist: []
   DestroyPS: {fileID: 2646472539867400640, guid: 9b777261655423d4f86b97ac983222dc,
     type: 3}
+  level: {fileID: 655764441104136856, guid: 5e111cf356bcf784390e04a04db5e708, type: 3}

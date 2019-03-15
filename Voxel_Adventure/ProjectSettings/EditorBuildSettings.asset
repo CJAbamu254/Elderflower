@@ -8,16 +8,16 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/main menu.unity
     guid: 10e34ca7e8cee0a4f86167766975a841
   - enabled: 1
     path: Assets/Scenes/Bedroom fixed.unity
     guid: bc13475422ac02141a4c8ea6d4803d10
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Forest.unity
     guid: e542a774f022aa74da7c02e7e04d1455
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Shopping.unity
     guid: 6d9c85d5cf57ad443bcd282f047b03b6
   m_configObjects: {}

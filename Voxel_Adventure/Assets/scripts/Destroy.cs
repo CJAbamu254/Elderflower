@@ -6,7 +6,6 @@ public class Destroy : MonoBehaviour
 {
     public GameObject DestroyPS;
 
-
     #region NOTICE
     // OnMouseDown is treated as a Raqycast Function but without any effort. Just apply this script to th object you want to destroy
     // Apply a Collider to the object you wish to destroy and apply this script to that obect
@@ -18,4 +17,3 @@ public class Destroy : MonoBehaviour
         Destroy(gameObject);
     }
 }
-
