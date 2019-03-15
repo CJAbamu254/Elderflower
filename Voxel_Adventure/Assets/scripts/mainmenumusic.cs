@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class mainmenumusic : MonoBehaviour
 {
@@ -16,6 +17,13 @@ public class mainmenumusic : MonoBehaviour
     public Collider Museum;
     public Collider Train;
 
+    public GameObject BEBut;
+    public GameObject FRBut;
+    public GameObject MABut;
+    public GameObject ZOBut;
+    public GameObject MUBut;
+    public GameObject TRBut;
+
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +33,6 @@ public class mainmenumusic : MonoBehaviour
         main = mainmusic[0];
         camaudio.clip = main;
         camaudio.Play();
-
     }
 
     void Update()
@@ -39,6 +46,8 @@ public class mainmenumusic : MonoBehaviour
                 main = mainmusic[1];
                 camaudio.clip = main;
                 camaudio.Play();
+
+                BEBut.SetActive(true);
             }
 
             if (Forest.Raycast(ray, out hit, 100.0f))
@@ -46,6 +55,8 @@ public class mainmenumusic : MonoBehaviour
                 main = mainmusic[2];
                 camaudio.clip = main;
                 camaudio.Play();
+
+                FRBut.SetActive(true);
             }
 
             if (Mall.Raycast(ray, out hit, 100.0f))
@@ -53,6 +64,8 @@ public class mainmenumusic : MonoBehaviour
                 main = mainmusic[3];
                 camaudio.clip = main;
                 camaudio.Play();
+
+                MABut.SetActive(true);
             }
 
             if (Zoo.Raycast(ray, out hit, 100.0f))
@@ -60,6 +73,8 @@ public class mainmenumusic : MonoBehaviour
                 main = mainmusic[4];
                 camaudio.clip = main;
                 camaudio.Play();
+
+               ZOBut.SetActive(true);
             }
 
             if (Museum.Raycast(ray, out hit, 100.0f))
@@ -67,6 +82,8 @@ public class mainmenumusic : MonoBehaviour
                 main = mainmusic[5];
                 camaudio.clip = main;
                 camaudio.Play();
+
+                MUBut.SetActive(true);
             }
 
             if (Train.Raycast(ray, out hit, 100.0f))
@@ -74,7 +91,21 @@ public class mainmenumusic : MonoBehaviour
                 main = mainmusic[6];
                 camaudio.clip = main;
                 camaudio.Play();
+
+                TRBut.SetActive(true);
+            }
+
+            else
+            {
+                BEBut.SetActive(false);
+                FRBut.SetActive(false);
+                MABut.SetActive(false);
+                ZOBut.SetActive(false);
+                MUBut.SetActive(false);
+                TRBut.SetActive(false);
+
             }
         }
+
     }
 }

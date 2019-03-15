@@ -3,7 +3,19 @@ guid: 6b495e00fe328614f996bf70deccc4a9
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - Bed: {instanceID: 0}
+  - Forest: {instanceID: 0}
+  - Mall: {instanceID: 0}
+  - Zoo: {instanceID: 0}
+  - Museum: {instanceID: 0}
+  - Train: {instanceID: 0}
+  - BEBut: {fileID: 4539227411808126322, guid: 2f0f2052b377bed41a236e618d4e003e, type: 3}
+  - FRBut: {fileID: 5347558285377794534, guid: 78d667d727220ac4a91e151295d3de54, type: 3}
+  - MABut: {fileID: 3274472412871424587, guid: 5bb9b77ea7c4b4948a1861ab35b82abf, type: 3}
+  - ZOBut: {fileID: 2050105740992097562, guid: ea7e190f989be63479ecd11619f328ae, type: 3}
+  - MUBut: {fileID: 2542815404076676910, guid: 0ed8b1406e74b4e408ce41d6384ccf39, type: 3}
+  - TRBut: {fileID: 8837673777690136456, guid: c9055294cfbfbaa43afc6e68132ee60e, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

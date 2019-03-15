@@ -8,7 +8,7 @@ public class startbutton : MonoBehaviour
 {
 
     public Button m_YourFirstButton, m_YourSecondButton, m_YourThirdButton;
-    private GameObject mainbuttons;
+    public GameObject mainbuttons;
 
     void Start()
     {
@@ -29,7 +29,8 @@ public class startbutton : MonoBehaviour
     void exitb()
     {
         //Output this to console when the Button2 is clicked
-
+        
+         Application.Quit();
     }
 
     void settingb()

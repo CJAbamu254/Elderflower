@@ -44,6 +44,14 @@ public class randomobjectplacement : MonoBehaviour
             objectToBeSpawned.transform.parent = level.transform;
         }
     }
+
+    private void Update()
+    {
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
+    }
 }
 
 
