@@ -702,5 +702,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 10.09
       objectReference: {fileID: 0}
+    - target: {fileID: 6859079581553128899, guid: 5e111cf356bcf784390e04a04db5e708,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e111cf356bcf784390e04a04db5e708, type: 3}

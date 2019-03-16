@@ -20,7 +20,7 @@ public class randomobjectplacement : MonoBehaviour
 
     void Start()
     {
-        for (int i = 0; i < 3; ++i)
+        for (int i = 0; i < objectlist.Count; ++i)
         {
 
             int randomObject;
