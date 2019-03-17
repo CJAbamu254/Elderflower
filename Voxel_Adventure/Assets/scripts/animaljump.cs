@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class jump : MonoBehaviour
+public class animaljump : MonoBehaviour
 {
+
+    // Doesn't work yet
+
 
     public float height = 0.5f;
 
@@ -18,7 +21,10 @@ public class jump : MonoBehaviour
         {
             yield return new WaitForSeconds(Random.Range(1.0f, 5.0f));
 
-            transform.position = new Vector3(transform.position.x, height, transform.position.z);
+            transform.position = new Vector3(transform.position.x, transform.position.y, height);
         }
     }
+
+
+    // Doesn't work yet
 }
