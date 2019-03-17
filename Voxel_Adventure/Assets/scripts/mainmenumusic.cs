@@ -41,9 +41,9 @@ public class mainmenumusic : MonoBehaviour
         { // if left button pressed...
             Ray ray = GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
-            if (Bed.Raycast(ray, out hit, 100.0f))
+            if (Bed.Raycast(ray, out hit, 2f))
             {
-                main = mainmusic[1];
+                main = mainmusic[1];     // bedroom music
                 camaudio.clip = main;
                 camaudio.Play();
 
@@ -56,9 +56,9 @@ public class mainmenumusic : MonoBehaviour
                 TRBut.SetActive(false);
             }
 
-            if (Forest.Raycast(ray, out hit, 100.0f))
+            if (Forest.Raycast(ray, out hit, 2f))
             {
-                main = mainmusic[2];
+                main = mainmusic[2];        // Forest music
                 camaudio.clip = main;
                 camaudio.Play();
 
@@ -71,9 +71,9 @@ public class mainmenumusic : MonoBehaviour
                 TRBut.SetActive(false);
             }
 
-            if (Mall.Raycast(ray, out hit, 100.0f))
+            if (Mall.Raycast(ray, out hit, 2f))
             {
-                main = mainmusic[3];
+                main = mainmusic[3];        // mall music
                 camaudio.clip = main;
                 camaudio.Play();
 
@@ -86,9 +86,9 @@ public class mainmenumusic : MonoBehaviour
                 TRBut.SetActive(false);
             }
 
-            if (Zoo.Raycast(ray, out hit, 100.0f))
+            if (Zoo.Raycast(ray, out hit, 2f))
             {
-                main = mainmusic[4];
+                main = mainmusic[4];        // zoo music
                 camaudio.clip = main;
                 camaudio.Play();
 
@@ -101,9 +101,9 @@ public class mainmenumusic : MonoBehaviour
                 TRBut.SetActive(false);
             }
 
-            if (Museum.Raycast(ray, out hit, 100.0f))
+            if (Museum.Raycast(ray, out hit, 2f))
             {
-                main = mainmusic[5];
+                main = mainmusic[5];        // museum music
                 camaudio.clip = main;
                 camaudio.Play();
 
@@ -116,9 +116,9 @@ public class mainmenumusic : MonoBehaviour
                 TRBut.SetActive(false);
             }
 
-            if (Train.Raycast(ray, out hit, 100.0f))
+            if (Train.Raycast(ray, out hit, 2f))
             {
-                main = mainmusic[6];
+                main = mainmusic[6];        // train music
                 camaudio.clip = main;
                 camaudio.Play();
 
