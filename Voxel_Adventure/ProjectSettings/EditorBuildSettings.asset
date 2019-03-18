@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Shopping.unity
     guid: 6d9c85d5cf57ad443bcd282f047b03b6
+  - enabled: 1
+    path: Assets/Scenes/Zoo.unity
+    guid: 497ae0dcc9824df45acd1723932fe018
   m_configObjects: {}
