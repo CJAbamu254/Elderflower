@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 8806137511528542784}
   - component: {fileID: 8806137511527248482}
   - component: {fileID: 8806137511526248610}
+  - component: {fileID: 8921044815582381101}
+  - component: {fileID: 3907612483314530538}
   m_Layer: 0
   m_Name: default
   m_TagString: Untagged
@@ -77,6 +79,33 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &8921044815582381101
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8806137511528181344}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.2000003, y: 0.099999905, z: 3.1999998}
+  m_Center: {x: -6, y: 2.05, z: -6.4}
+--- !u!114 &3907612483314530538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8806137511528181344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f757642ed27909449ba211d3f9730fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DestroyPS: {fileID: 2646472539867400640, guid: 9b777261655423d4f86b97ac983222dc,
+    type: 3}
 --- !u!1 &8806137511528181346
 GameObject:
   m_ObjectHideFlags: 0

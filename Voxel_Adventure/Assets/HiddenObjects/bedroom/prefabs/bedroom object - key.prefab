@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 93948034766586084}
   - component: {fileID: 93948034767880390}
   - component: {fileID: 93948034768880134}
+  - component: {fileID: 8679385202938960748}
+  - component: {fileID: 4416558776999567225}
   m_Layer: 0
   m_Name: default
   m_TagString: Untagged
@@ -77,6 +79,33 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &8679385202938960748
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93948034766625988}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2000002, y: 0.0999999, z: 4.399999}
+  m_Center: {x: -5.8, y: 2.05, z: -5.4}
+--- !u!114 &4416558776999567225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93948034766625988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f757642ed27909449ba211d3f9730fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DestroyPS: {fileID: 2646472539867400640, guid: 9b777261655423d4f86b97ac983222dc,
+    type: 3}
 --- !u!1 &93948034766625990
 GameObject:
   m_ObjectHideFlags: 0
@@ -102,7 +131,7 @@ Transform:
   m_GameObject: {fileID: 93948034766625990}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children:
   - {fileID: 93948034766586084}
   m_Father: {fileID: 0}

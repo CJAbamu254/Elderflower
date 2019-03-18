@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 7162445932295940297}
   - component: {fileID: 7162445932293040363}
   - component: {fileID: 7162445932294171179}
+  - component: {fileID: 7841281377086625885}
+  - component: {fileID: 5404998056027036257}
   m_Layer: 0
   m_Name: zoo_-_lion
   m_TagString: Untagged
@@ -77,6 +79,33 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &7841281377086625885
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7162445932296369385}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 15, y: 35, z: 25}
+  m_Center: {x: -19.5, y: 20.5, z: 54.5}
+--- !u!114 &5404998056027036257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7162445932296369385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f757642ed27909449ba211d3f9730fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DestroyPS: {fileID: 2646472539867400640, guid: 9b777261655423d4f86b97ac983222dc,
+    type: 3}
 --- !u!1 &7162445932296369387
 GameObject:
   m_ObjectHideFlags: 0

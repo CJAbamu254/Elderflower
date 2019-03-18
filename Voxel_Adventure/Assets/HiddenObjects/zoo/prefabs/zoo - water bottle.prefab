@@ -42,6 +42,8 @@ GameObject:
   - component: {fileID: 4212376562590782419}
   - component: {fileID: 4212376562589488113}
   - component: {fileID: 4212376562588356913}
+  - component: {fileID: 6551733337264492307}
+  - component: {fileID: 6500241051084662299}
   m_Layer: 0
   m_Name: zoo_-_water_bottle
   m_TagString: Untagged
@@ -108,3 +110,30 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &6551733337264492307
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4212376562590289907}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 12, y: 12.000003, z: 47.00001}
+  m_Center: {x: -58, y: 60.000015, z: 149.50003}
+--- !u!114 &6500241051084662299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4212376562590289907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f757642ed27909449ba211d3f9730fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DestroyPS: {fileID: 2646472539867400640, guid: 9b777261655423d4f86b97ac983222dc,
+    type: 3}

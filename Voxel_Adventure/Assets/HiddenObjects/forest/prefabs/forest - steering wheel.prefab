@@ -42,6 +42,8 @@ GameObject:
   - component: {fileID: 7201103709208859419}
   - component: {fileID: 7201103709207532345}
   - component: {fileID: 7201103709206565369}
+  - component: {fileID: 1059437948895408388}
+  - component: {fileID: 2658591201313285267}
   m_Layer: 0
   m_Name: forest_-_steering_wheel
   m_TagString: Untagged
@@ -108,3 +110,30 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1059437948895408388
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7201103709208825659}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 26, y: 26, z: 3}
+  m_Center: {x: -19, y: 20, z: 41.5}
+--- !u!114 &2658591201313285267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7201103709208825659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f757642ed27909449ba211d3f9730fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DestroyPS: {fileID: 2646472539867400640, guid: 9b777261655423d4f86b97ac983222dc,
+    type: 3}

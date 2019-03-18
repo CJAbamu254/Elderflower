@@ -42,6 +42,8 @@ GameObject:
   - component: {fileID: 5175534792150956495}
   - component: {fileID: 5175534792151759341}
   - component: {fileID: 5175534792152726317}
+  - component: {fileID: 7495569675993722192}
+  - component: {fileID: 580288855730714233}
   m_Layer: 0
   m_Name: forest_-_apple
   m_TagString: Untagged
@@ -108,3 +110,30 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &7495569675993722192
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5175534792150787567}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 40, y: 40.000008, z: 49.00001}
+  m_Center: {x: -62, y: 63.000015, z: 189.50005}
+--- !u!114 &580288855730714233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5175534792150787567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f757642ed27909449ba211d3f9730fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DestroyPS: {fileID: 2646472539867400640, guid: 9b777261655423d4f86b97ac983222dc,
+    type: 3}
