@@ -21,7 +21,7 @@ public class animaljump : MonoBehaviour
         {
             yield return new WaitForSeconds(Random.Range(1.0f, 5.0f));
 
-            transform.position = new Vector3(transform.position.x, transform.position.y, height);
+            transform.position = new Vector3( transform.localPosition.x, transform.localPosition.y, height);
         }
     }
 
