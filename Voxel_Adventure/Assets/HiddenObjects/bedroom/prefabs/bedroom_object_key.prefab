@@ -116,8 +116,8 @@ GameObject:
   m_Component:
   - component: {fileID: 93948034766586086}
   m_Layer: 0
-  m_Name: bedroom object - key
-  m_TagString: Untagged
+  m_Name: bedroom_object_key
+  m_TagString: objectsleft
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

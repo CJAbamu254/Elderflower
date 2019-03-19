@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5248151142154500163}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: objectsleft
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106,4 +106,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DestroyPS: {fileID: 2646472539867400640, guid: 9b777261655423d4f86b97ac983222dc,
     type: 3}
-  level: {fileID: 655764441104136856, guid: 5e111cf356bcf784390e04a04db5e708, type: 3}
