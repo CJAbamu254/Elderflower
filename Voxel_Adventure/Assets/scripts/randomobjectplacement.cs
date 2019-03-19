@@ -58,6 +58,3 @@ public class randomobjectplacement : MonoBehaviour
         Debug.Log(num);
     }
 }
-
-
-//code from https://stackoverflow.com/questions/41997818/how-to-instantiate-3-gameobjects-in-3-positions-of-a-list-of-20-random-positions

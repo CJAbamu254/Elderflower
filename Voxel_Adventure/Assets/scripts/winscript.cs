@@ -5,5 +5,8 @@ using UnityEngine;
 public class winscript : MonoBehaviour
 {
 
-
+    void objectsleft(float objects)
+    {
+        
+    }
 }
