@@ -9,6 +9,7 @@ public class startbutton : MonoBehaviour
 
     public Button m_YourFirstButton, m_YourSecondButton, m_YourThirdButton;
     public GameObject mainbuttons;
+    public GameObject settings;
 
     void Start()
     {
@@ -36,6 +37,6 @@ public class startbutton : MonoBehaviour
     void settingb()
     {
         //Output this to console when the Button3 is clicked
-
+        settings.SetActive(true);
     }
 }

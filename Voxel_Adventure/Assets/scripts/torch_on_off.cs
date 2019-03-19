@@ -22,12 +22,16 @@ public class torch_on_off : MonoBehaviour
         {
             CameraDevice.Instance.SetFlashTorchMode(true);
             status = true;
+            Debug.Log("Light ON");
+
         }
 
-        if (status == true)
+        else
         {
             CameraDevice.Instance.SetFlashTorchMode(true);
             status = false;
+            Debug.Log("Light OFF");
+
         }
     }
 }

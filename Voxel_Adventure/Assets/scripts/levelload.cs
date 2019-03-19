@@ -45,13 +45,13 @@ public class levelload : MonoBehaviour
 
     void TaskOnClick4()
     {
-       // SceneManager.LoadScene("Bedroomfixed", LoadSceneMode.Single);
+        SceneManager.LoadScene("Museum", LoadSceneMode.Single);
 
     }
 
     void TaskOnClick5()
     {
-        //SceneManager.LoadScene("Bedroomfixed", LoadSceneMode.Single);
+        SceneManager.LoadScene("Train Station", LoadSceneMode.Single);
 
     }
 }
