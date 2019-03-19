@@ -52,6 +52,11 @@ public class randomobjectplacement : MonoBehaviour
             Application.Quit();
         }
     }
+
+    public void objectsleft(float num)
+    {
+        Debug.Log(num);
+    }
 }
 
 

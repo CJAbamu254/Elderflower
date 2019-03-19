@@ -6,11 +6,9 @@ public class Destroy : MonoBehaviour
 {
     public GameObject DestroyPS;
 
-    public void Start()
+    void Start()
     {
-        //Fix this!!
-
-        //BroadcastMessage(gameObject.name);
+       SendMessage("objectsleft", 1);
     }
 
     void OnMouseDown()

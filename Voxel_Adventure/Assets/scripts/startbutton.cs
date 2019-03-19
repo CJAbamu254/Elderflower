@@ -7,16 +7,19 @@ using UnityEngine.UI;
 public class startbutton : MonoBehaviour
 {
 
-    public Button m_YourFirstButton, m_YourSecondButton, m_YourThirdButton;
+    public Button m_YourFirstButton, m_YourSecondButton, m_YourThirdButton, m_YourLastButton;
     public GameObject mainbuttons;
     public GameObject settings;
 
+    public GameObject home;
     void Start()
     {
         //Calls the TaskOnClick/TaskWithParameters/ButtonClicked method when you click the Button
         m_YourFirstButton.onClick.AddListener(startb);
         m_YourSecondButton.onClick.AddListener(exitb);
         m_YourThirdButton.onClick.AddListener(settingb);
+        m_YourLastButton.onClick.AddListener(close);
+
 
         mainbuttons = gameObject;
     }
@@ -24,6 +27,7 @@ public class startbutton : MonoBehaviour
     void startb()
     {
         //Output this to console when Button1 is clicked
+        home.SetActive(true);
         Destroy(mainbuttons);
     }
 
@@ -38,5 +42,11 @@ public class startbutton : MonoBehaviour
     {
         //Output this to console when the Button3 is clicked
         settings.SetActive(true);
+    }
+
+    void close()
+    {
+        settings.SetActive(false);
+
     }
 }
