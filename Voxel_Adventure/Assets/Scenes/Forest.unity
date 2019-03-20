@@ -2508,6 +2508,10 @@ PrefabInstance:
       propertyPath: levellist
       value: 
       objectReference: {fileID: 1936262489}
+    - target: {fileID: 1546801665, guid: 76b4d8d65768cc845bb42c1f94bf7c8a, type: 3}
+      propertyPath: moveDistance
+      value: 1100
+      objectReference: {fileID: 0}
     - target: {fileID: 1081567639730167653, guid: 76b4d8d65768cc845bb42c1f94bf7c8a,
         type: 3}
       propertyPath: home
