@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 794273919226457051}
   m_Layer: 0
   m_Name: default
-  m_TagString: Untagged
+  m_TagString: objectsleft
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116,7 +116,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8168262867740649883}
   m_Layer: 0
-  m_Name: bedroom object - pig
+  m_Name: bedroom_object_pig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4416558776999567225}
   m_Layer: 0
   m_Name: default
-  m_TagString: Untagged
+  m_TagString: objectsleft
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 93948034766586086}
   m_Layer: 0
   m_Name: bedroom_object_key
-  m_TagString: objectsleft
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

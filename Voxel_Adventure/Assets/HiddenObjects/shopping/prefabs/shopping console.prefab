@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1134357907026089044}
   m_Layer: 0
   m_Name: shopping console
-  m_TagString: objectsleft
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 7819846035852900730}
   m_Layer: 0
   m_Name: shopping_console
-  m_TagString: Untagged
+  m_TagString: objectsleft
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

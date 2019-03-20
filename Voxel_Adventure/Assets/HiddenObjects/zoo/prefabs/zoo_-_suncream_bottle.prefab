@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7162445932296369385
+--- !u!1 &4696567386175916565
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,47 +8,47 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7162445932295940297}
-  - component: {fileID: 7162445932293040363}
-  - component: {fileID: 7162445932294171179}
-  - component: {fileID: 7841281377086625885}
-  - component: {fileID: 5404998056027036257}
+  - component: {fileID: 4696567386176017973}
+  - component: {fileID: 4696567386172593687}
+  - component: {fileID: 4696567386173723863}
+  - component: {fileID: 5946481631814248744}
+  - component: {fileID: 1961733745935202922}
   m_Layer: 0
-  m_Name: zoo_-_lion
-  m_TagString: Untagged
+  m_Name: zoo_-_suncream_bottle
+  m_TagString: objectsleft
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7162445932295940297
+--- !u!4 &4696567386176017973
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7162445932296369385}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_GameObject: {fileID: 4696567386175916565}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.02, y: 0.020000007, z: 0.020000007}
   m_Children: []
-  m_Father: {fileID: 7162445932295940299}
+  m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &7162445932293040363
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &4696567386172593687
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7162445932296369385}
-  m_Mesh: {fileID: 4300000, guid: 6dd39d27958637f4990fa1bb76e741a8, type: 3}
---- !u!23 &7162445932294171179
+  m_GameObject: {fileID: 4696567386175916565}
+  m_Mesh: {fileID: 4300000, guid: 678a3996037f850458bae05939b75d3b, type: 3}
+--- !u!23 &4696567386173723863
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7162445932296369385}
+  m_GameObject: {fileID: 4696567386175916565}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -59,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9d74e33ee10342d4d86dcbb27444a0c2, type: 2}
+  - {fileID: 2100000, guid: 043968107a1bbd943b19c74c9958c0e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -79,26 +79,26 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &7841281377086625885
+--- !u!65 &5946481631814248744
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7162445932296369385}
+  m_GameObject: {fileID: 4696567386175916565}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 15, y: 35, z: 25}
-  m_Center: {x: -19.5, y: 20.5, z: 54.5}
---- !u!114 &5404998056027036257
+  m_Size: {x: 6, y: 4.000001, z: 15.000004}
+  m_Center: {x: -63, y: 34.000008, z: 133.50003}
+--- !u!114 &1961733745935202922
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7162445932296369385}
+  m_GameObject: {fileID: 4696567386175916565}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f757642ed27909449ba211d3f9730fc, type: 3}
@@ -106,34 +106,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DestroyPS: {fileID: 2646472539867400640, guid: 9b777261655423d4f86b97ac983222dc,
     type: 3}
---- !u!1 &7162445932296369387
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7162445932295940299}
-  m_Layer: 0
-  m_Name: zoo - lion toy
-  m_TagString: objectsleft
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7162445932295940299
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7162445932296369387}
-  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 0.71000004, y: 16.63, z: 2.12}
-  m_LocalScale: {x: 0.02, y: 0.02, z: 0.02}
-  m_Children:
-  - {fileID: 7162445932295940297}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 90, z: 0}
