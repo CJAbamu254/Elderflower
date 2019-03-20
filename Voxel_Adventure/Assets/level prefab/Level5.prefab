@@ -1317,7 +1317,7 @@ MonoBehaviour:
   Homebut: {fileID: 0}
   Listbut: {fileID: 0}
   levellist: {fileID: 0}
-  moveDistance: 1250
+  moveDistance: 1000
   Startpos: {x: 0, y: 0, z: 0}
   Targetpos: {x: 10, y: 10, z: 10}
 --- !u!114 &407441346706570083
