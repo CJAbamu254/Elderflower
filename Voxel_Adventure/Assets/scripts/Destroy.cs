@@ -6,9 +6,12 @@ public class Destroy : MonoBehaviour
 {
     public GameObject DestroyPS;
 
-    void OnMouseDown()
+    void Update()
     {
-        Instantiate(DestroyPS, transform.position, DestroyPS.transform.rotation);
-        Destroy(this.gameObject);
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Instantiate(DestroyPS, transform.position, DestroyPS.transform.rotation);
+            Destroy(this.gameObject);
+        }
     }
 }

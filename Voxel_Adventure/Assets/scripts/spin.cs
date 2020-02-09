@@ -20,13 +20,15 @@ public class spin : MonoBehaviour
         {
            transform.Rotate(Vector3.up, speed * Time.deltaTime);
         }
+
+        for (int i = 0; i < Input.touchCount; ++i)
+        {
+            if (Input.GetTouch(i).phase == TouchPhase.Began)
+            {
+                float rotx = Input.GetAxis("Mouse X") * clickspeed * Mathf.Deg2Rad;
+
+                transform.Rotate(Vector3.up, -rotx);
+            }
+        }
     }
-
-    private void OnMouseDrag()
-    {
-        float rotx = Input.GetAxis("Mouse X") * clickspeed * Mathf.Deg2Rad;
-
-        transform.Rotate(Vector3.up, -rotx);
-    }
-
 }

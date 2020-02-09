@@ -8,25 +8,25 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/main menu.unity
     guid: 10e34ca7e8cee0a4f86167766975a841
   - enabled: 1
     path: Assets/Scenes/Bedroomfixed.unity
     guid: bc13475422ac02141a4c8ea6d4803d10
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Forest.unity
     guid: e542a774f022aa74da7c02e7e04d1455
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Shopping.unity
     guid: 6d9c85d5cf57ad443bcd282f047b03b6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Zoo.unity
     guid: 497ae0dcc9824df45acd1723932fe018
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Museum.unity
     guid: c9c50974070ba7643a4f92ba8307c1b4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Train Station.unity
     guid: 9f36d06ee24378245827b98c286a580c
   m_configObjects: {}
