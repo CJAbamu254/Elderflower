@@ -7,7 +7,7 @@
     using GoogleARCoreInternal;
     using UnityEngine;
 
-    public class AugmentedImageVisualizer : MonoBehaviour
+    public class AugmentedImageVisualizerMine : MonoBehaviour
     {
         public AugmentedImage Image;
 

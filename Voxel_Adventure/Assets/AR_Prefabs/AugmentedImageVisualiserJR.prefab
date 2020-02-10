@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 2141669076160818583}
   - component: {fileID: 8314646970264039776}
   - component: {fileID: 1141700930358729483}
-  - component: {fileID: 1636400995994554126}
   m_Layer: 0
-  m_Name: AugmentedImageVisualiser
+  m_Name: AugmentedImageVisualiserJR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67,6 +66,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -79,20 +79,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1636400995994554126
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 13946110176228091}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f3e2233fb5bc04409dd52fd7e67802c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelprefab: {fileID: 655764441104136856, guid: 5e111cf356bcf784390e04a04db5e708,
-    type: 3}
 --- !u!1001 &9173019867486785131
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -160,6 +146,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6859079581553128897, guid: 5e111cf356bcf784390e04a04db5e708,
+        type: 3}
+      propertyPath: objectlist.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6859079581553128897, guid: 5e111cf356bcf784390e04a04db5e708,
+        type: 3}
+      propertyPath: locationslist.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6859079581553128897, guid: 5e111cf356bcf784390e04a04db5e708,
+        type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1975529741, guid: 5e111cf356bcf784390e04a04db5e708, type: 3}
       propertyPath: Homebut
       value: 
@@ -171,6 +172,22 @@ PrefabInstance:
     - target: {fileID: 1975529741, guid: 5e111cf356bcf784390e04a04db5e708, type: 3}
       propertyPath: levellist
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975529741, guid: 5e111cf356bcf784390e04a04db5e708, type: 3}
+      propertyPath: moveDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975529741, guid: 5e111cf356bcf784390e04a04db5e708, type: 3}
+      propertyPath: Targetpos.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975529741, guid: 5e111cf356bcf784390e04a04db5e708, type: 3}
+      propertyPath: Targetpos.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975529741, guid: 5e111cf356bcf784390e04a04db5e708, type: 3}
+      propertyPath: Targetpos.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 154248083, guid: 5e111cf356bcf784390e04a04db5e708, type: 3}
       propertyPath: home

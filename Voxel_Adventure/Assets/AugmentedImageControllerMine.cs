@@ -6,7 +6,7 @@
     using UnityEngine;
     using UnityEngine.UI;
 
-    public class AugmentedImageController : MonoBehaviour
+    public class AugmentedImageControllerMine : MonoBehaviour
     {
         [SerializeField] private AugmentedImageVisualizer _augmentedImageVisualiser;
 
