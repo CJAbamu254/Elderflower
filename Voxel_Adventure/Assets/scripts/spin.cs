@@ -2,33 +2,32 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class spin : MonoBehaviour
 {
-
     public float speed = 10f;
     public float clickspeed = 45f;
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButton(0))
         {
+            float rotx = Input.GetAxis("Mouse X") * clickspeed * Mathf.Deg2Rad;
 
+            transform.Rotate(Vector3.up, -rotx);
         }
 
         else
         {
-           transform.Rotate(Vector3.up, speed * Time.deltaTime);
+            transform.Rotate(Vector3.up, speed * Time.deltaTime);
         }
 
-        for (int i = 0; i < Input.touchCount; ++i)
+        if (Input.touchCount > 0)
         {
-            if (Input.GetTouch(i).phase == TouchPhase.Began)
-            {
-                float rotx = Input.GetAxis("Mouse X") * clickspeed * Mathf.Deg2Rad;
+            Touch touch = Input.GetTouch(0);
 
-                transform.Rotate(Vector3.up, -rotx);
-            }
+            Vector3 localAngle = transform.localEulerAngles;
+            localAngle.y -= clickspeed * touch.deltaPosition.x;
+            transform.localEulerAngles = localAngle;
         }
     }
 }

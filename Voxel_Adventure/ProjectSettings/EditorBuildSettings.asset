@@ -5,28 +5,28 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/main menu.unity
     guid: 10e34ca7e8cee0a4f86167766975a841
   - enabled: 1
-    path: Assets/Scenes/Bedroomfixed.unity
-    guid: bc13475422ac02141a4c8ea6d4803d10
+    path: Assets/ScenesARCore/BedroomARC.unity
+    guid: 628b5bbb98001434a859b6fa735a7842
+  - enabled: 1
+    path: Assets/ScenesARCore/ForestARC.unity
+    guid: 7b247a718860efa4ca3b925b329917a6
+  - enabled: 1
+    path: Assets/ScenesARCore/ShoppingARC.unity
+    guid: d6176099820f99746b6546764ca4af56
+  - enabled: 1
+    path: Assets/ScenesARCore/ZooARC.unity
+    guid: 4706ec8ef15b72e41a704e6662d00f2c
+  - enabled: 1
+    path: Assets/ScenesARCore/MuseumARC.unity
+    guid: ffaf9baffcbf69c4087896a6ad4aff41
+  - enabled: 1
+    path: Assets/ScenesARCore/TrainStationARC.unity
+    guid: 9a40be6d0ed051f43b7e24db7b5a2e14
   - enabled: 0
-    path: Assets/Scenes/Forest.unity
-    guid: e542a774f022aa74da7c02e7e04d1455
-  - enabled: 0
-    path: Assets/Scenes/Shopping.unity
-    guid: 6d9c85d5cf57ad443bcd282f047b03b6
-  - enabled: 0
-    path: Assets/Scenes/Zoo.unity
-    guid: 497ae0dcc9824df45acd1723932fe018
-  - enabled: 0
-    path: Assets/Scenes/Museum.unity
-    guid: c9c50974070ba7643a4f92ba8307c1b4
-  - enabled: 0
-    path: Assets/Scenes/Train Station.unity
-    guid: 9f36d06ee24378245827b98c286a580c
+    path: Assets/test scene.unity
+    guid: de5cd859d9e12b04ba0a8425c1842275
   m_configObjects: {}

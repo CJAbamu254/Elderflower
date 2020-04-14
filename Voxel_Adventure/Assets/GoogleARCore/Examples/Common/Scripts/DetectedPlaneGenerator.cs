@@ -40,13 +40,15 @@ namespace GoogleARCore.Examples.Common
         /// </summary>
         private List<DetectedPlane> m_NewPlanes = new List<DetectedPlane>();
 
+        public static bool tracking;
+
         /// <summary>
         /// The Unity Update method.
         /// </summary>
         public void Update()
         {
             // Check that motion tracking is tracking.
-            if (Session.Status != SessionStatus.Tracking)
+            if (Session.Status != SessionStatus.Tracking || tracking == true)
             {
                 return;
             }

@@ -23,6 +23,4 @@ public class listupdate : Destroy
         Debug.Log("star");
 
     }
-
-
 }

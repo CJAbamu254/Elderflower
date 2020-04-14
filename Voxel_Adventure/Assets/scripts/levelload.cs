@@ -22,36 +22,36 @@ public class levelload : MonoBehaviour
 
     void TaskOnClick()
     {
-        SceneManager.LoadScene("Bedroomfixed", LoadSceneMode.Single);
+        SceneManager.LoadScene(1, LoadSceneMode.Single);
     }
 
     void TaskOnClick1()
     {
-        SceneManager.LoadScene("Forest", LoadSceneMode.Single);
+        SceneManager.LoadScene(2, LoadSceneMode.Single);
 
     }
 
     void TaskOnClick2()
     {
-        SceneManager.LoadScene("Shopping", LoadSceneMode.Single);
+        SceneManager.LoadScene(3, LoadSceneMode.Single);
 
     }
 
     void TaskOnClick3()
     {
-        SceneManager.LoadScene("Zoo", LoadSceneMode.Single);
+        SceneManager.LoadScene(4, LoadSceneMode.Single);
 
     }
 
     void TaskOnClick4()
     {
-        SceneManager.LoadScene("Museum", LoadSceneMode.Single);
+        SceneManager.LoadScene(5, LoadSceneMode.Single);
 
     }
 
     void TaskOnClick5()
     {
-        SceneManager.LoadScene("Train Station", LoadSceneMode.Single);
+        SceneManager.LoadScene(6, LoadSceneMode.Single);
 
     }
 }

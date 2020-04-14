@@ -5,56 +5,28 @@ using UnityEngine;
 public class randomobjectplacement : MonoBehaviour
 {
 
-    public List<GameObject> objectlist = new List<GameObject>();
+    public GameObject[] objectlist;
     public List<GameObject> locationslist = new List<GameObject>();
-
-    private int objectIndex;
-    private int spawnIndex;
-    private GameObject obj;
-
-    List<int> randomObjects = new List<int>();
-    List<int> randomPositions = new List<int>();
 
     public GameObject level;
 
 
     void Start()
     {
-        for (int i = 0; i < objectlist.Count; ++i)
+        for (int i = 0; i < objectlist.Length; ++i)
         {
-
-            int randomObject;
-            do
-            {
-                randomObject = Random.Range(0, objectlist.Count);
-            }
-            while (randomObjects.Contains(randomObject));
-            randomObjects.Add(randomObject);
-
-            int randomPosition;
-            do
-            {
-                randomPosition = Random.Range(0, locationslist.Count);
-            }
-            while (randomPositions.Contains(randomPosition));
-            randomPositions.Add(randomPosition);
+            int randomPosition = Random.Range(0, locationslist.Count);
 
             GameObject objectToBeSpawned = null;
-            objectToBeSpawned = Instantiate(objectlist[randomObject], locationslist[randomPosition].transform.position, locationslist[randomPosition].transform.rotation);
+            objectToBeSpawned = Instantiate(objectlist[i], locationslist[randomPosition].transform.position, locationslist[randomPosition].transform.rotation);
             objectToBeSpawned.transform.parent = level.transform;
-        }
-    }
 
-    private void Update()
-    {
-        if (Input.GetKey("escape"))
+            locationslist.Remove(locationslist[randomPosition]);
+        }
+
+        for (int i = 0; i < locationslist.Count; i++)
         {
-            Application.Quit();
+            Destroy(locationslist[i]);
         }
-    }
-
-    public void objectsleft(float num)
-    {
-        Debug.Log(num);
     }
 }
