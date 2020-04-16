@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/main menu.unity
+    path: Assets/ScenesARCore/main menu.unity
     guid: 10e34ca7e8cee0a4f86167766975a841
   - enabled: 1
     path: Assets/ScenesARCore/BedroomARC.unity

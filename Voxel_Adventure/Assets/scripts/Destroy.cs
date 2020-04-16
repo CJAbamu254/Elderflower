@@ -5,12 +5,16 @@ using UnityEngine;
 public class Destroy : MonoBehaviour
 {
     public GameObject DestroyPS;
+    public bool kill;
+    public GameObject otherdestroy;
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (kill == true)
         {
-            Instantiate(DestroyPS, transform.position, DestroyPS.transform.rotation);
+            GameObject clone = Instantiate(DestroyPS, transform.position, DestroyPS.transform.rotation);
+            clone.transform.parent = null;
+            Destroy(otherdestroy);
             Destroy(this.gameObject);
         }
     }

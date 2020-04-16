@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class animaljump : MonoBehaviour
 {
-
-    // Doesn't work yet
-
-
     public float height = 0.5f;
 
     void Start()
@@ -17,14 +13,10 @@ public class animaljump : MonoBehaviour
 
     IEnumerator jumping()
     {
-        while (true)
-        {
-            yield return new WaitForSeconds(Random.Range(1.0f, 5.0f));
+        transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, transform.localPosition.z * height);
 
-            transform.position = new Vector3( transform.localPosition.x, transform.localPosition.y, transform.localPosition.z * height);
-        }
+        yield return new WaitForSeconds(Random.Range(1.0f, 5.0f));
+
+        StartCoroutine(jumping());
     }
-
-
-    // Doesn't work yet
 }

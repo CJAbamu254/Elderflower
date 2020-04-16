@@ -11,8 +11,9 @@ public class Home : MonoBehaviour
 
     public Image levellist;
     public float moveDistance;
-    public Vector3 Startpos;
-    public Vector3 Targetpos;
+    private Vector3 Startpos;
+    private Vector3 Targetpos;
+    public GameObject srtpos, endpos;
     private float move;
     private float CurrentLerpTime;
     private float LerpTime = 0.5f;
@@ -36,15 +37,23 @@ public class Home : MonoBehaviour
     {
         if (move == 0)
         {
-            Startpos = levellist.GetComponent<Transform>().position;
-            Targetpos = Startpos + Vector3.up * moveDistance;
+            //Startpos = levellist.GetComponent<Transform>().position;
+            //Targetpos = Startpos + Vector3.up * moveDistance;
+
+            Startpos = srtpos.transform.position;
+            Targetpos = endpos.transform.position;
+
             move = 1;
         }
 
         if (move == 2)
         {
-            Startpos = levellist.GetComponent<Transform>().position;
-            Targetpos = Startpos + Vector3.down * moveDistance;
+            //Startpos = levellist.GetComponent<Transform>().position;
+            //Targetpos = Startpos + Vector3.down * moveDistance;
+
+            Startpos = endpos.transform.position;
+            Targetpos = srtpos.transform.position;
+
             move = 3;
         }
     }

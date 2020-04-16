@@ -5,21 +5,32 @@ using UnityEngine.UI;
 
 public class winscript : MonoBehaviour
 {
-    public GameObject home;
-    public GameObject oldhome;
-    public GameObject oldlist;
+    public GameObject home, oldhome, oldlist, oldlistbut;
 
+    public GameObject spawnlocations;
+    public List<GameObject> locationslist = new List<GameObject>();
 
     void Update()
     {
-        GameObject[] gameObjects;
-        gameObjects = GameObject.FindGameObjectsWithTag("objectsleft");
+        for (int i = 0; i < locationslist.Count; i++)
+        {
+            if (locationslist[i] == null)
+            {
+                locationslist.Remove(locationslist[i]);
+            }
 
-        if (gameObjects.Length == 0)
+            if (locationslist[i].transform.childCount == 0)
+            {
+                Destroy(locationslist[i]);
+            }
+        }
+
+        if (spawnlocations.transform.childCount == 0)
         {
             home.SetActive(true);
             oldhome.SetActive(false);
             oldlist.SetActive(false);
+            oldlistbut.SetActive(false);
 
         }
     }

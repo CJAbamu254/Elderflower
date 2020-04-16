@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3825249930107646790}
   m_Layer: 0
   m_Name: forest_-_coin
-  m_TagString: objectsleft
+  m_TagString: hidobj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 154842358795364536}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 55.9, y: -56.1, z: -186.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.39, y: -1.01, z: -4}
+  m_LocalScale: {x: 0.02, y: 0.02, z: 0.02}
   m_Children: []
   m_Father: {fileID: 154842358795072666}
   m_RootOrder: 0
@@ -67,6 +67,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -90,7 +91,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 42, y: 42, z: 3}
+  m_Size: {x: 42, y: 42, z: 32.58}
   m_Center: {x: -59, y: 58, z: 188.49998}
 --- !u!114 &3825249930107646790
 MonoBehaviour:
@@ -106,6 +107,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DestroyPS: {fileID: 2646472539867400640, guid: 9b777261655423d4f86b97ac983222dc,
     type: 3}
+  kill: 0
+  otherdestroy: {fileID: 154842358795364538}
 --- !u!1 &154842358795364538
 GameObject:
   m_ObjectHideFlags: 0
@@ -117,7 +120,7 @@ GameObject:
   - component: {fileID: 154842358795072666}
   m_Layer: 0
   m_Name: forest - coin
-  m_TagString: Untagged
+  m_TagString: hidobj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,8 +133,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 154842358795364538}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 23.4, z: 8.45}
-  m_LocalScale: {x: 0.02, y: 0.02, z: 0.02}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 154842358795072664}
   m_Father: {fileID: 0}

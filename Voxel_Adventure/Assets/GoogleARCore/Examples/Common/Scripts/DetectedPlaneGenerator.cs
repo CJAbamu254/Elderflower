@@ -50,6 +50,11 @@ namespace GoogleARCore.Examples.Common
             // Check that motion tracking is tracking.
             if (Session.Status != SessionStatus.Tracking || tracking == true)
             {
+                foreach (Transform child in this.transform)
+                {
+                    GameObject.Destroy(child.gameObject);
+                }
+
                 return;
             }
 

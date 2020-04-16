@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1162220563874145412}
   m_Layer: 0
   m_Name: forest - bag
-  m_TagString: Untagged
+  m_TagString: hidobj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 1162220563873724580}
   m_LocalRotation: {x: 0.50000006, y: 0.50000006, z: 0.5, w: 0.5}
   m_LocalPosition: {x: -0, y: 14.14, z: 5.31}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1162220563874145414}
   m_Father: {fileID: 0}
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 2439921356708922816}
   m_Layer: 0
   m_Name: forest_-_bag
-  m_TagString: objectsleft
+  m_TagString: hidobj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59,8 +59,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1162220563873724582}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -126.9, y: -48.8, z: -56.8}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -7.55, y: -3.12, z: -3.66}
+  m_LocalScale: {x: 0.06, y: 0.06, z: 0.06}
   m_Children: []
   m_Father: {fileID: 1162220563874145412}
   m_RootOrder: 0
@@ -98,6 +98,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -121,7 +122,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 20.000013, y: 31.00001, z: 1.0000066}
+  m_Size: {x: 28, y: 33.7, z: 18.7}
   m_Center: {x: -60.000015, y: 55.499992, z: 126.500015}
 --- !u!114 &2439921356708922816
 MonoBehaviour:
@@ -137,3 +138,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DestroyPS: {fileID: 2646472539867400640, guid: 9b777261655423d4f86b97ac983222dc,
     type: 3}
+  kill: 0
+  otherdestroy: {fileID: 1162220563873724580}

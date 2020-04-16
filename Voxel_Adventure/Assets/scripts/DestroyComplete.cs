@@ -7,6 +7,6 @@ public class DestroyComplete : MonoBehaviour
 
     private void Start()
     {
-        Destroy(gameObject, 5f);
+        Destroy(this.gameObject, 2f);
     }
 }
