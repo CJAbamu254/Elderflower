@@ -15,23 +15,20 @@ public class randomobjectplacement : MonoBehaviour
     {
         for (int i = 0; i < objectlist.Length; ++i)
         {
-            int randomPosition = Random.Range(0, locationslist.Count);
+            int randomPosition = Random.Range(0, locationslist.Count);     // Random location
 
             GameObject objectToBeSpawned = null;
             objectToBeSpawned = Instantiate(objectlist[i], locationslist[randomPosition].transform.position, transform.rotation);
-            //objectToBeSpawned.transform.parent = activeitems.transform;
-
-            objectToBeSpawned.transform.parent = locationslist[randomPosition].transform;
-            objectToBeSpawned.transform.localScale = new Vector3(1, 1, 1);
-
-            locationslist.Remove(locationslist[randomPosition]);
+            objectToBeSpawned.transform.parent = locationslist[randomPosition].transform;   // Change Instantiated object parent
+                                                                                          
+            locationslist.Remove(locationslist[randomPosition]);   // Remove location from pool
         }
 
         for (int i = 0; i < locationslist.Count; i++)
         {
             if (locationslist[i].transform.childCount == 0)
             {
-                Destroy(locationslist[i]);
+                Destroy(locationslist[i]);          // destroy any left over locations 
             }
         }
     }
